@@ -9,7 +9,7 @@ int main() {
 
   int fak = 1; //deklarasi faktorial
 
-  for(int x = 1; x <= angka; x++) 
+  for(int x = 1; x <= angka; x++) //perulangan for dimulai dari x = 1 sampai dengan x kurang dari atau sama dengan angka, nilai x akan naik 1 angka.
 {
   fak = fak * x; 
 }
