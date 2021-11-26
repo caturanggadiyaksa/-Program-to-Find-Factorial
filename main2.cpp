@@ -2,20 +2,20 @@
 using namespace std;
 
 int main() {
-  cout << "Program C++ Menghitung Faktorial" << endl;
+  cout << "Program C++ Menghitung Faktorial" << endl; //output 
 
 
-  int angka, hasil, x;
+  int angka, hasil, x;  //deklarasi angka hasil dan x
 
-  cout << "Masukan Angka :";
-  cin >> angka;
+  cout << "Masukan Angka :"; //output
+  cin >> angka; //input angka
 
-  cout << angka << "! = ";
+  cout << angka << "! = "; //output ! =
 
-  int fak = 1;
-  for(x = 1; x <= angka; x++)
+  int fak = 1; //deklarasi fak = 1
+  for(x = 1; x <= angka; x++) //perulangan dimulai dari 1 dan kurang dari angka input dan di cetak maju
   {
-    fak = fak * x;
+    fak = fak * x; //rumus menghitung faktorial
 
     //untuk menampilkan angka
     cout << x;
@@ -24,7 +24,7 @@ int main() {
       cout << "*";
     }
   }
-  cout << "=" << fak;
+  cout << "=" << fak; //hasil
   cout << endl;
 
   return 0;
